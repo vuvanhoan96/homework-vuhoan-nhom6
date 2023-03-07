@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+#practice {
+    background-color: #888;
+    height: auto;
+}
+                /* CSS practice__one */
+.practice__one {
+    background-color: white;
+    border: 1px solid rgb(104, 188, 104);
+    padding: 50px;
+    height: 450px;
+}
+.practice__child {
+    background-color: rgba(13, 182, 182, 0.683);
+    border: 1px solid rgb(39, 148, 176);
+    padding: 25px 35px 50px 35px;
+    margin: auto;
+    width: 500px;
+}
+.practice__content {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    text-align: center;
+    padding: 25px 20px;
+    background-color: rgba(187, 76, 56, 0.749);
+    border: 1px solid rgba(157, 71, 47, 0.418);  
+}
+.practice__btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    margin: 0 5px 16px 0;
+}
+.practice--delete {
+    background-color: rgb(128, 37, 120);
+}
+.practice--keep {
+    background-color: rgb(50, 129, 151);
+}
+.practice--delete:hover {
+    wid
+}
+                /* CSS practice__two */
+.practice__two {
+    background-color: white;
+    border: 1px solid rgb(104, 188, 104);
+    height: 350px;
+    position: relative;
+}
+.practice__menu {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: rgb(86, 245, 245);
+    margin: 0;
+    padding: 5px;
+    width: 450px;
+    height: 70px;
+    
+}
+.practice__ul {
+    display: flex;
+    list-style: none;
+    background-color: rgba(211, 169, 118, 0.879);
+    justify-content: space-around;
+    margin: 6px;
+    padding: 0;
+    height: 60px;
+}
+.practice__li {
+    text-align: center;
+    border: 1px solid rgb(240, 192, 133);
+    flex: 1;
+    padding: 19px 20px;
+    box-sizing: border-box;
+}
+.practice__menu2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 40px;
+    background-color: whitesmoke;
+
+}
+.practice__menu2__child {
+    border: 1px solid gray;
+    width: 150px;
+    height: 40px;
+    padding: 11px 20px;
+    box-sizing: border-box;
+}
+/* .li--hover:hover {
+    color: red;
+    animation: menuChild ease .3s, fadeOut linear 1s forwards;
+}
+@keyframes menuChild {
+    from{
+        opacity: 0;
+        transform: translateX(calc(100% + 186px));
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeOut{
+    to{
+        opacity: 0;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
